@@ -11,11 +11,11 @@ public class Point {
         y = yt;
     }
 
-    public boolean Neighbour(Point cell) {
+    public boolean neighbour(Point cell) {
         return (Math.abs(cell.x - x) <= 1 && Math.abs(cell.y - y) <= 1);
     }
 
-    public void Next(Point add) {
+    public void next(Point add) {
         x += add.x;
         y += add.y;
     }
