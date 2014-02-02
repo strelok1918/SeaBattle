@@ -2,6 +2,7 @@ package com.SeaBattle;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class General extends Activity
 {
@@ -11,5 +12,6 @@ public class General extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
     }
 }

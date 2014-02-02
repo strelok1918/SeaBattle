@@ -7,6 +7,39 @@ import java.util.ArrayList;
  */
 public class Board {
     private ArrayList<Ship> shipsList = new ArrayList<Ship>();
+    private ArrayList<Point> shots = new ArrayList<Point>();
+
+    public int shot(Point cell) {
+       if(shots.contains(cell)) {
+           return ShotResult.Repeat;
+       }
+       if(checkHit(cell)) {
+           return ShotResult.Hit;
+       } else {
+           return ShotResult.Miss;
+       }
+    }
+
+    private boolean checkHit(Point cell) {
+        for(Ship item : shipsList) {
+            if(belong(cell, item)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private boolean belong(Point cell, Ship currentShip) {
+        Point currentCell = currentShip.startPoint;
+        Point add = getIncrement(currentShip.direction);
+        for(int i = 0; i < currentShip.shipLength; i++) {
+            if(cell.equals(currentCell)) {
+                return true;
+            }
+            currentCell.next(add);
+        }
+        return false;
+    }
 
     public void addShip(Ship currentShip) {
         if(canAddShip(currentShip)) {
@@ -18,14 +51,18 @@ public class Board {
         return !shipLimitRiched(currentShip) && checkShipCells(currentShip);
     }
 
+    private Point getIncrement(Orientation direction) {
+        if(direction.equals(Orientation.HORIZONTAL)) {
+            return new Point(1, 0);
+        } else {
+            return new Point(0, 1);
+        }
+    }
+
     private boolean checkShipCells(Ship currentShip){
         Point currentCell = currentShip.startPoint;
-        Point add;
-        if(currentShip.direction.equals(Orientation.HORIZONTAL)) {
-            add = new Point(1, 0);
-        } else {
-            add = new Point(0, 1);
-        }
+        Point add = getIncrement(currentShip.direction);
+
         for(int length = 0; length < currentShip.shipLength; length++){
             if(!isCellCorrect(currentCell)) {
                 return false;
@@ -46,12 +83,7 @@ public class Board {
 
     private boolean neighbourToShip(Ship currentShip, Point cell) {
         Point currentCell = currentShip.startPoint;
-        Point add;
-        if(currentShip.direction.equals(Orientation.HORIZONTAL)) {
-            add = new Point(1, 0);
-        } else {
-            add = new Point(0, 1);
-        }
+        Point add = getIncrement(currentShip.direction);
 
         for(int length = 0; length < currentShip.shipLength; length++) {
             if(currentCell.neighbour(cell)) {
