@@ -2,7 +2,7 @@ package com.SeaBattle;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
+
 
 public class General extends Activity
 {
