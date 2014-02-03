@@ -8,6 +8,10 @@ import java.util.ArrayList;
 public class ShipList {
     private ArrayList<Ship> ships = new ArrayList<Ship>();
 
+    public ShipList() {
+
+    }
+
     public boolean addShip(Ship currentShip) {
         if(canAddShip(currentShip)) {
             ships.add(currentShip);
@@ -55,10 +59,8 @@ public class ShipList {
         return !shipLimitRiched(currentShip) && checkShipCells(currentShip);
     }
 
-
-
     private boolean checkShipCells(Ship currentShip){
-        Point currentCell = currentShip.startPoint;
+        Point currentCell = currentShip.startPoint.clone();
         Point add = Point.getIncrement(currentShip.direction);
 
         for(int length = 0; length < currentShip.shipLength; length++){
@@ -83,16 +85,16 @@ public class ShipList {
     }
 
     private boolean neighbourToShip(Ship currentShip, Point cell) {
-        Point currentCell = currentShip.startPoint;
+        Point currentCell = currentShip.startPoint.clone();
         Point add = Point.getIncrement(currentShip.direction);
 
         for(int length = 0; length < currentShip.shipLength; length++) {
             if(currentCell.neighbour(cell)) {
-                return false;
+                return true;
             }
             currentCell.next(add);
         }
-        return true;
+        return false;
     }
 
     private boolean outOfBoard(Point cell) {
@@ -107,20 +109,20 @@ public class ShipList {
             }
         }
         if(currentShip.shipLength == 4 && count >= Constants.fourDeckCount) {
-            return false;
+            return true;
         }
 
         if(currentShip.shipLength == 3 && count >= Constants.threeDeckCount) {
-            return false;
+            return true;
         }
 
         if(currentShip.shipLength == 2 && count >= Constants.twoDeckCount) {
-            return false;
+            return true;
         }
 
         if(currentShip.shipLength == 1 && count >= Constants.oneDeckCount) {
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
 }

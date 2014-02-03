@@ -18,34 +18,35 @@ public class BoardTest {
     Board board;
     @Before
     public void setUp() throws Exception {
-        board = new Board(10,10);
-    }
-
-    @Test
-    public void testShot() throws Exception {
-
+        board = new Board();
     }
 
     @Test
     public void testAddShip() throws Exception {
-        Ship ship = new Ship(2, Orientation.HORIZONTAL, new Point(2, 3));
-        board.addShip(ship);
-
-        assertEquals(ship, board.getShipList().get(0));
+        assertTrue(board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(2, 5))));
+        assertTrue(board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(2, 3))));
+        assertFalse(board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(2, 4))));
+        assertFalse(board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(2, 6))));
+        assertTrue(board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(2, 8))));
+        assertFalse(board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(7, 3))));
+        assertFalse(board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(5, 6))));
     }
 
-    @Ignore
     @Test
     public void testIsAShip() throws Exception {
-        board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(2, 3)));
-
-        assertTrue(board.isAShip(2,3));
-        assertTrue(board.isAShip(3,3));
+        assertTrue(board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(2, 3))));
+        assertTrue(board.isAShip(new Point(2, 3)));
+        assertTrue(board.isAShip(new Point(3, 3)));
     }
 
     @Test
-    public void testBoardConstructor() throws Exception {
-        assertThat(board.getHeight(), equalTo(10));
-        assertThat(board.getWidth(), equalTo(10));
+    public void testShot() throws Exception {
+        board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(2, 3)));
+        assertEquals(board.shot(new Point(2, 3)), ShotResult.HIT);
+        assertEquals(board.shot(new Point(3, 3)), ShotResult.SINKED);
+        assertEquals(board.shot(new Point(2, 3)), ShotResult.REPEAT);
+        assertEquals(board.shot(new Point(3, 3)), ShotResult.REPEAT);
+        assertEquals(board.shot(new Point(5, 3)), ShotResult.MISS);
+        assertEquals(board.shot(new Point(4, 3)), ShotResult.MISS);
     }
 }

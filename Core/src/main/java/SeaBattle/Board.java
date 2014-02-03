@@ -11,7 +11,7 @@ import java.util.List;
 public class Board {
 
     private ArrayList<Point> shots = new ArrayList<Point>();
-    private ShipList ships;
+    private ShipList ships = new ShipList();
 
     public Board() {
     }
@@ -19,6 +19,7 @@ public class Board {
     public boolean addShip(Ship currentShip) {
         return ships.addShip(currentShip);
     }
+
     public ShotResult shot(Point cell) {
        if(shots.contains(cell)) {
            return ShotResult.REPEAT;
@@ -27,16 +28,7 @@ public class Board {
        return ships.shot(cell);
     }
 
-    private boolean belong(Point cell, Ship currentShip) {
-        Point currentCell = currentShip.startPoint;
-        Point add = Point.getIncrement(currentShip.direction);
-
-        for(int i = 0; i < currentShip.shipLength; i++) {
-            if(cell.equals(currentCell)) {
-                return true;
-            }
-            currentCell.next(add);
-        }
-        return false;
+    public boolean isAShip(Point cell) {
+        return ships.isShip(cell);
     }
 }

@@ -13,7 +13,7 @@ public class Ship {
         shipLength = length;
         aliveDecks = length;
         direction = dir;
-        startPoint = start;
+        startPoint = start.clone();
     }
 
     public void hit() {
@@ -26,12 +26,13 @@ public class Ship {
 
     public boolean isCellBelongToShip(Point cell) {
         boolean result = false;
+
         switch(direction) {
             case HORIZONTAL:
-                result = (startPoint.y == cell.y && Math.abs(startPoint.x - cell.x) <= shipLength);
+                result = (startPoint.y == cell.y && Math.abs(startPoint.x - cell.x) < shipLength);
                 break;
             case VERTICAL:
-                result = (startPoint.x == cell.x && Math.abs(startPoint.y - cell.y) <= shipLength);
+                result = (startPoint.x == cell.x && Math.abs(startPoint.y - cell.y) < shipLength);
                 break;
         }
         return result;
