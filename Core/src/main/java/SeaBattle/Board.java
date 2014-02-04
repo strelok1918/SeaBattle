@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class Board {
 
-    private ArrayList<Point> shots = new ArrayList<Point>();
+    private ArrayList<Shot> shots = new ArrayList<Shot>();
     private ShipList ships = new ShipList();
 
     public Board() {
@@ -21,11 +21,12 @@ public class Board {
     }
 
     public ShotResult shot(Point cell) {
-       if(shots.contains(cell)) {
+       if(shots.contains(new Shot(cell, ShotResult.MISS))) {
            return ShotResult.REPEAT;
        }
-       shots.add(cell);
-       return ships.shot(cell);
+       ShotResult result = ships.shot(cell);
+       shots.add(new Shot(cell, result));
+       return result;
     }
 
     public boolean isAShip(Point cell) {

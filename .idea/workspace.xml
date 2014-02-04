@@ -80,13 +80,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="my_field.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/my_field.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="41" selection-start="364" selection-end="364" vertical-scroll-proportion="-3.06" vertical-offset="0" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/src/main/java/SeaBattle/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="40" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Board.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Core/src/main/java/SeaBattle/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.789731" vertical-offset="0" max-vertical-offset="680">
+            <state line="23" column="55" selection-start="510" selection-end="510" vertical-scroll-proportion="0.70660144" vertical-offset="102" max-vertical-offset="697">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#234#241#0" expanded="true" />
+                <element signature="e#233#239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,39 +116,17 @@
       <file leaf-file-name="Point.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Core/src/main/java/SeaBattle/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="765">
+            <state line="35" column="0" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="356" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/src/test/java/SeaBattle/BoardTest.java">
+      <file leaf-file-name="Shot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/src/main/java/SeaBattle/Shot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="25" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="986">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ship.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/src/main/java/SeaBattle/Ship.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="782">
+            <state line="16" column="45" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShipList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/src/main/java/SeaBattle/ShipList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="2278">
-              <folding>
-                <element signature="e#162#168#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,11 +143,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/SeaBattle/Orientation.java" />
         <option value="$PROJECT_DIR$/src/com/SeaBattle/Constants.java" />
-        <option value="$PROJECT_DIR$/src/com/SeaBattle/Point.java" />
         <option value="$PROJECT_DIR$/src/com/SeaBattle/Ship.java" />
         <option value="$PROJECT_DIR$/src/com/SeaBattle/ShotResult.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/SeaBattle/General.java" />
         <option value="$PROJECT_DIR$/src/com/SeaBattle/Board.java" />
         <option value="$PROJECT_DIR$/Core/src/SeaBattle/Constants.java" />
         <option value="$PROJECT_DIR$/Core/src/SeaBattle/General.java" />
@@ -166,11 +163,17 @@
         <option value="$PROJECT_DIR$/Core/src/main/java/SeaBattle/General.java" />
         <option value="$PROJECT_DIR$/Core/src/main/java/SeaBattle/Orientation.java" />
         <option value="$PROJECT_DIR$/Core/src/main/java/SeaBattle/ShotResult.java" />
-        <option value="$PROJECT_DIR$/Core/src/main/java/SeaBattle/Board.java" />
         <option value="$PROJECT_DIR$/Core/src/main/java/SeaBattle/Point.java" />
         <option value="$PROJECT_DIR$/Core/src/main/java/SeaBattle/Ship.java" />
-        <option value="$PROJECT_DIR$/Core/src/test/java/SeaBattle/BoardTest.java" />
         <option value="$PROJECT_DIR$/Core/src/main/java/SeaBattle/ShipList.java" />
+        <option value="$PROJECT_DIR$/Core/src/test/java/SeaBattle/BoardTest.java" />
+        <option value="$PROJECT_DIR$/res/layout/my_field.xml" />
+        <option value="$PROJECT_DIR$/src/com/SeaBattle/Point.java" />
+        <option value="$PROJECT_DIR$/gen/com/SeaBattle/Manifest.java" />
+        <option value="$PROJECT_DIR$/src/com/SeaBattle/General.java" />
+        <option value="$PROJECT_DIR$/Core/src/main/java/SeaBattle/Player.java" />
+        <option value="$PROJECT_DIR$/Core/src/main/java/SeaBattle/Shot.java" />
+        <option value="$PROJECT_DIR$/Core/src/main/java/SeaBattle/Board.java" />
       </list>
     </option>
   </component>
@@ -342,6 +345,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeaBattle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeaBattle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeaBattle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeaBattle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeaBattle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -361,18 +404,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SeaBattle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,7 +450,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
@@ -444,6 +475,8 @@
       <recent name="SeaBattle" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Igor\Documents\GitHub\SeaBattle\gen\com\SeaBattle" />
+      <recent name="C:\Users\Igor\Documents\GitHub\SeaBattle\src\com\SeaBattle" />
       <recent name="C:\Users\Igor\Documents\GitHub\SeaBattle\Core\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -451,15 +484,15 @@
       <recent name="C:\Users\Igor\Documents\GitHub\SeaBattle\Core\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoardTest.testAddShip">
-    <configuration default="false" name="BoardTest.testBoardConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Android Application.General (2)">
+    <configuration default="false" name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Core" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="SeaBattle" />
       <option name="MAIN_CLASS_NAME" value="SeaBattle.BoardTest" />
-      <option name="METHOD_NAME" value="testBoardConstructor" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -470,7 +503,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -502,84 +541,46 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="SeaBattle" />
-      <option name="MAIN_CLASS_NAME" value="SeaBattle.BoardTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration default="false" name="General" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="com.SeaBattle.General" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="Dev" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="BoardTest.testIsAShip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="SeaBattle" />
-      <option name="MAIN_CLASS_NAME" value="SeaBattle.BoardTest" />
-      <option name="METHOD_NAME" value="testIsAShip" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BoardTest.testShot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="SeaBattle" />
-      <option name="MAIN_CLASS_NAME" value="SeaBattle.BoardTest" />
-      <option name="METHOD_NAME" value="testShot" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
+    <configuration default="false" name="General (1)" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="com.SeaBattle.General" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -731,6 +732,27 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="false" name="General (2)" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="SeaBattle" />
+      <option name="ACTIVITY_CLASS" value="com.SeaBattle.General" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="main.java.mvn_driven.SeaBattle.General" />
       <option name="VM_PARAMETERS" value="" />
@@ -748,20 +770,19 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.testBoardConstructor" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest.testAddShip" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTest.testIsAShip" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.BoardTest.testShot" />
+      <item index="0" class="java.lang.String" itemvalue="Android Application.General (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.testAddShip" />
+      <item index="4" class="java.lang.String" itemvalue="Android Application.General" />
+      <item index="5" class="java.lang.String" itemvalue="Android Application.General (1)" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.testAddShip" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest.testIsAShip" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.testShot" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTest.testBoardConstructor" />
+        <item index="1" class="java.lang.String" itemvalue="Android Application.General (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Android Application.General" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.testAddShip" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -799,7 +820,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -822,7 +843,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.49885058" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.49885058" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29153094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -879,69 +900,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/SeaBattle/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/SeaBattle/Orientation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/SeaBattle/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/SeaBattle/Ship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/SeaBattle/ShotResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="392" selection-end="392" vertical-scroll-proportion="0.33730158" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/SeaBattle/General.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/SeaBattle/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="532" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2227">
-          <folding>
-            <element signature="e#167#173#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="16" selection-start="562" selection-end="562" vertical-scroll-proportion="0.6650367" vertical-offset="0" max-vertical-offset="527">
@@ -1072,26 +1030,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/test/java/SeaBattle/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="986">
+        <state line="39" column="52" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.579932" vertical-offset="322" max-vertical-offset="1003">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="30" selection-start="392" selection-end="392" vertical-scroll-proportion="0.32380953" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/main/java/mvn_driven/SeaBattle/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/main/java/mvn_driven/SeaBattle/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/main/java/mvn_driven/SeaBattle/Manifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="192" selection-end="192" vertical-scroll-proportion="0.14455782" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeaBattle/General.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/my_field.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="41" selection-start="364" selection-end="364" vertical-scroll-proportion="-3.06" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/main/java/SeaBattle/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="40" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/main/java/SeaBattle/Shot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="45" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/main/java/SeaBattle/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="765">
+        <state line="35" column="0" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/main/java/SeaBattle/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.789731" vertical-offset="0" max-vertical-offset="680">
+        <state line="23" column="55" selection-start="510" selection-end="510" vertical-scroll-proportion="0.70660144" vertical-offset="102" max-vertical-offset="697">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#234#241#0" expanded="true" />
+            <element signature="e#233#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1148,7 +1170,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mvn_driven</last-edited>
+          <last-edited>SeaBattle</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1172,6 +1194,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.8.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

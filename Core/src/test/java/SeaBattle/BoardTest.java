@@ -37,6 +37,7 @@ public class BoardTest {
         assertTrue(board.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(2, 3))));
         assertTrue(board.isAShip(new Point(2, 3)));
         assertTrue(board.isAShip(new Point(3, 3)));
+        assertFalse(board.isAShip(new Point(4, 5)));
     }
 
     @Test
