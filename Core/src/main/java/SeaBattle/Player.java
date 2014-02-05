@@ -8,7 +8,7 @@ public class Player {
     private EnemyBoard enemyShips = new EnemyBoard();
 
     public ShotResult myShot(Point cell){
-        return boardWithMyShips.shot(cell);
+        return enemyShips.shot(cell);
     }
 
     public boolean addShip(Ship ship) {
@@ -20,6 +20,6 @@ public class Player {
     }
 
     public ShotResult enemyShot(Point cell){
-        return enemyShips.shot(cell);
+        return boardWithMyShips.shot(cell);
     }
 }

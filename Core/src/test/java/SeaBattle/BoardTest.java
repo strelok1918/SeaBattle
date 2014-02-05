@@ -54,6 +54,24 @@ public class BoardTest {
     @Test
     public void testPlayerAddShips() throws Exception {
         Player p = new Player();
+        assertTrue(p.addShip(new Ship(1, Orientation.HORIZONTAL, new Point(0, 9))));
+        assertTrue(p.addShip(new Ship(1, Orientation.HORIZONTAL, new Point(1, 1))));
+        assertTrue(p.addShip(new Ship(1, Orientation.HORIZONTAL, new Point(5, 8))));
+        assertTrue(p.addShip(new Ship(1, Orientation.HORIZONTAL, new Point(8, 4))));
+
+        assertTrue(p.addShip(new Ship(2, Orientation.HORIZONTAL, new Point(5, 4))));
+        assertTrue(p.addShip(new Ship(2, Orientation.VERTICAL, new Point(3, 1))));
+        assertTrue(p.addShip(new Ship(2, Orientation.VERTICAL, new Point(8, 7))));
+
+        assertTrue(p.addShip(new Ship(3, Orientation.VERTICAL, new Point(1, 5))));
+        assertTrue(p.addShip(new Ship(3, Orientation.HORIZONTAL, new Point(5, 1))));
+
+        assertTrue(p.addShip(new Ship(4, Orientation.VERTICAL, new Point(3, 4))));
+        assertFalse(p.isDefeated());
+    }
+    @Test
+    public void testDefeatBattle() {
+        Player p = new Player();
         assertTrue(p.addShip(new Ship(1,Orientation.HORIZONTAL, new Point(0, 9))));
         assertTrue(p.addShip(new Ship(1,Orientation.HORIZONTAL, new Point(1, 1))));
         assertTrue(p.addShip(new Ship(1,Orientation.HORIZONTAL, new Point(5, 8))));
@@ -63,9 +81,43 @@ public class BoardTest {
         assertTrue(p.addShip(new Ship(2,Orientation.VERTICAL, new Point(3, 1))));
         assertTrue(p.addShip(new Ship(2,Orientation.VERTICAL, new Point(8, 7))));
 
-        assertTrue( p.addShip(new Ship(3,Orientation.VERTICAL, new Point(1, 5))));
+        assertTrue(p.addShip(new Ship(3,Orientation.VERTICAL, new Point(1, 5))));
         assertTrue(p.addShip(new Ship(3,Orientation.HORIZONTAL, new Point(5, 1))));
 
         assertTrue(p.addShip(new Ship(4,Orientation.VERTICAL, new Point(3, 4))));
+
+
+        assertEquals(p.enemyShot(new Point(0, 9)), ShotResult.SINKED);
+        assertEquals(p.enemyShot(new Point(0, 9)), ShotResult.REPEAT);
+
+        assertEquals(p.enemyShot(new Point(5, 8)), ShotResult.SINKED);
+
+        assertEquals(p.enemyShot(new Point(8, 4)), ShotResult.SINKED);
+
+        assertEquals(p.enemyShot(new Point(1, 1)), ShotResult.SINKED);
+
+        assertEquals(p.enemyShot(new Point(5, 4)), ShotResult.HIT);
+        assertEquals(p.enemyShot(new Point(6, 4)), ShotResult.SINKED);
+
+        assertEquals(p.enemyShot(new Point(8, 8)), ShotResult.HIT);
+        assertEquals(p.enemyShot(new Point(8, 7)), ShotResult.SINKED);
+
+        assertEquals(p.enemyShot(new Point(3, 1)), ShotResult.HIT);
+        assertEquals(p.enemyShot(new Point(3, 2)), ShotResult.SINKED);
+
+        assertEquals(p.enemyShot(new Point(5, 1)), ShotResult.HIT);
+        assertEquals(p.enemyShot(new Point(6, 1)), ShotResult.HIT);
+        assertEquals(p.enemyShot(new Point(7, 1)), ShotResult.SINKED);
+
+        assertEquals(p.enemyShot(new Point(1, 5)), ShotResult.HIT);
+        assertEquals(p.enemyShot(new Point(1, 6)), ShotResult.HIT);
+        assertEquals(p.enemyShot(new Point(1, 7)), ShotResult.SINKED);
+
+        assertEquals(p.enemyShot(new Point(3, 5)), ShotResult.HIT);
+        assertEquals(p.enemyShot(new Point(3, 6)), ShotResult.HIT);
+        assertEquals(p.enemyShot(new Point(3, 4)), ShotResult.HIT);
+        assertEquals(p.enemyShot(new Point(3, 7)), ShotResult.SINKED);
+
+        assertTrue(p.isDefeated());
     }
 }
