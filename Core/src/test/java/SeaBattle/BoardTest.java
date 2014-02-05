@@ -50,4 +50,22 @@ public class BoardTest {
         assertEquals(board.shot(new Point(5, 3)), ShotResult.MISS);
         assertEquals(board.shot(new Point(4, 3)), ShotResult.MISS);
     }
+
+    @Test
+    public void testPlayerAddShips() throws Exception {
+        Player p = new Player();
+        assertTrue(p.addShip(new Ship(1,Orientation.HORIZONTAL, new Point(0, 9))));
+        assertTrue(p.addShip(new Ship(1,Orientation.HORIZONTAL, new Point(1, 1))));
+        assertTrue(p.addShip(new Ship(1,Orientation.HORIZONTAL, new Point(5, 8))));
+        assertTrue(p.addShip(new Ship(1,Orientation.HORIZONTAL, new Point(8, 4))));
+
+        assertTrue(p.addShip(new Ship(2,Orientation.HORIZONTAL, new Point(5, 4))));
+        assertTrue(p.addShip(new Ship(2,Orientation.VERTICAL, new Point(3, 1))));
+        assertTrue(p.addShip(new Ship(2,Orientation.VERTICAL, new Point(8, 7))));
+
+        assertTrue( p.addShip(new Ship(3,Orientation.VERTICAL, new Point(1, 5))));
+        assertTrue(p.addShip(new Ship(3,Orientation.HORIZONTAL, new Point(5, 1))));
+
+        assertTrue(p.addShip(new Ship(4,Orientation.VERTICAL, new Point(3, 4))));
+    }
 }
