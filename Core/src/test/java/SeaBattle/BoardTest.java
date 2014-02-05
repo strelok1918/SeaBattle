@@ -69,6 +69,7 @@ public class BoardTest {
         assertTrue(p.addShip(new Ship(4, Orientation.VERTICAL, new Point(3, 4))));
         assertFalse(p.isDefeated());
     }
+
     @Test
     public void testDefeatBattle() {
         Player p = new Player();
@@ -85,7 +86,6 @@ public class BoardTest {
         assertTrue(p.addShip(new Ship(3,Orientation.HORIZONTAL, new Point(5, 1))));
 
         assertTrue(p.addShip(new Ship(4,Orientation.VERTICAL, new Point(3, 4))));
-
 
         assertEquals(p.enemyShot(new Point(0, 9)), ShotResult.SINKED);
         assertEquals(p.enemyShot(new Point(0, 9)), ShotResult.REPEAT);
@@ -118,6 +118,8 @@ public class BoardTest {
         assertEquals(p.enemyShot(new Point(3, 4)), ShotResult.HIT);
         assertEquals(p.enemyShot(new Point(3, 7)), ShotResult.SINKED);
 
+        assertEquals(p.enemyShot(new Point(9, 9)), ShotResult.MISS);
+        assertEquals(p.enemyShot(new Point(8, 4)), ShotResult.REPEAT);
         assertTrue(p.isDefeated());
     }
 }
