@@ -2,6 +2,28 @@
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/Core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/Board.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/Constants.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/EnemyBoard.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/Game.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/Orientation.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/Player.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/Point.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/Ship.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/ShipList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/Shot.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/ShotResult.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/Board.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/Constants.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/EnemyBoard.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/Game.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/Orientation.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/Player.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/Point.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/Ship.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/ShipList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/Shot.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/SeaBattle/core/ShotResult.java" charset="UTF-8" />
   </component>
 </project>
 
